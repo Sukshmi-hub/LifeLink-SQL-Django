@@ -1,0 +1,25 @@
+{
+  "alerts": [
+    {
+      "alert_id": "A001",
+      "request_type": "blood",
+      "blood_group": "O+",
+      "hospital_id": "H001",
+      "urgency_level": "critical",
+      "message": "Urgent O+ blood required at City Hospital",
+      "timestamp": "2025-03-05T10:30:00",
+      "status": "active"
+    }
+  ],
+
+  "chats": [
+    {
+      "chat_id": "C001",
+      "sender_id": "U001",
+      "receiver_id": "U002",
+      "message": "I am available to donate blood.",
+      "timestamp": "2025-03-05T10:32:00",
+      "read_status": false
+    }
+  ]
+}

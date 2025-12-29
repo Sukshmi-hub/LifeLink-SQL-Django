@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "user_id": "U001",
+      "name": "Anita Sharma",
+      "role": "donor",
+      "phone": "9876543210",
+      "email": "anita@example.com",
+      "verified": true,
+      "created_at": "2025-03-01"
+    },
+    {
+      "user_id": "U002",
+      "name": "City Hospital",
+      "role": "hospital",
+      "phone": "9123456780",
+      "email": "cityhospital@example.com",
+      "verified": true,
+      "created_at": "2025-03-02"
+    }
+  ],
+
+  "donors": [
+    {
+      "donor_id": "D001",
+      "user_id": "U001",
+      "donation_type": "blood",
+      "blood_group": "O+",
+      "availability": "available",
+      "verified": true
+    }
+  ],
+
+  "requests": [
+    {
+      "request_id": "R001",
+      "request_type": "blood",
+      "patient_id": "P001",
+      "hospital_id": "H001",
+      "urgency_level": "high",
+      "status": "open",
+      "created_at": "2025-03-05"
+    }
+  ]
+}
